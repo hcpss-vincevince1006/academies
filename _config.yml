@@ -1,0 +1,12 @@
+# Site settings
+
+# the subpath of your site, e.g. /blog/
+baseurl: "/academies"
+
+# Build settings
+markdown: kramdown
+
+collections:
+  academies:
+    output: true
+    permalink: academy/:path/

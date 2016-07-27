@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<!-- <p>&mdash;&mdash; Page Template &mdash;&mdash;</p> -->
+
+<p><em>{{ page.questions }}</em></p>
+
+{% if page.video %}
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://player.vimeo.com/video/{{ page.video }}' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+{% endif %}
+
+<div style="font-size: larger; font-weight: 300;">{{ content }}</div>
+
+<div class="section content-trending group" style="margin-top: 2em; margin-bottom: 2em;">
+<div class="thirds">
+<h2 style="width: 90%;"><i class="fa fa-map fa-2" style="color: #7DC254;"></i> Location</h2>
+{% if page.location == "ARL" %}
+<p><strong>Applications and Research Laboratory (ARL)</strong><br />
+ 10920 Clarksville Pike<br />
+ Ellicott City, MD 21042</p>
+{% else %}
+<p><strong>Your current school</strong><br />
+ Depending on interest and enrollment, this academy may be offered at your home school. Contact your school's guidance counselor for more information.</p>
+{% endif %}
+</div>
+<div class="thirds">
+<h2 style="width: 90%; padding-top: 0px; border-bottom: 1px solid rgba(51, 51, 51, 0.2); display: inline-block; font-size: 1.4em; margin-bottom: 0.58333em;"><i class="fa fa-calendar fa-2" style="color: #7DC254;"></i> Grades</h2>
+<p><span style="text-align: center;font-weight: 500; font-size:64px;"> {{ page.grades }} </span></p>
+{% include /curriculum/{{ page.slug }}.html %}
+</div>
+<div class="thirds">
+<h2 style="width: 90%; padding-top: 0px; border-bottom: 1px solid rgba(51, 51, 51, 0.2); display: inline-block; font-size: 1.4em; margin-bottom: 0.58333em;"><i class="fa fa-calendar fa-2" style="color: #7DC254;"></i> Related Academies</h2>
+<!-- <p><span style="font-weight: 500; font-size:18px;">{% for topics in page.topics %}{{ topics }}, {% endfor %}</span></p> -->
+<ul>
+  {% for academy in site.academies %}
+    {% for topic in academy.topics %}
+      {% for page-topic in page.topics %}
+        {% if topic == page-topic %}
+      <li><a href="{{ site.baseurl }}/academy/{{ academy.slug | xml_escape }}/">{{ academy.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+
+</ul>
+</div>
+</div>
+
+<div style="border: 1px solid #3494D2; padding: 10px; padding-left: 20px; background-color: #FFFBFF; font-size: smaller; margin-top: 2em;">
+<div class="contents">
+<div class="col-left">
+
+<h2>Successful Academy Students:</h2>
+<ul>
+<li>Maintain a C average in all academy coursework</li>
+<li>Complete a senior level coursework through a work-site experience (students must provide their own transportation)<br>
+<strong>OR</strong> by participating in the on-campus (ARL) course of advanced skills, which includes a capstone project</li>
+</ul>
+
+</div>
+<div class="col-right">
+  <h2>Senior Level Coursework Requirements:</h2>
+  <ul>
+ <li>Complete at least 8-10 hours of work-site experience per week <strong>OR</strong> daily attendance at the Applications and Research Lab</li>
+<li>Attend weekly senior seminars at the Applications and Research Lab</li>
+<li>Choose a “real world” problem to research</li>
+<li>Write and submit a research proposal, abstract, and reflection paper based on research</li>
+<li>Maintain and submit a journal and portfolio of senior work.</li>
+  </ul>
+</div>
+</div>
+</div>
+
+<div class="table-responsive">
+{% include /course-schedules/{{ page.slug }}.html %}
+</div>
