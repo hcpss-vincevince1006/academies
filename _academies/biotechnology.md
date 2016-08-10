@@ -12,6 +12,11 @@ topics:
   - Engineering
   - Health
   - Technology
+electives: yes
+certifications: no
+prerequisites: yes
+college-credit: yes
+senior-coursework: yes
 ---
 
 The Biotechnology Academy prepares students for careers in medicine, marine science, forensic science, agricultural science and pharmacology, among others. Students use modern laboratory equipment to purify and analyze DNA, RNA, and proteins. Students investigate issues such as disease diagnosis, medication production, identification of environmental contaminants and forensic evidence analysis. Students conduct original research, often working with scientists in local medical, research or industrial labs.

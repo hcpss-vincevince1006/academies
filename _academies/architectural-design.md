@@ -11,6 +11,11 @@ video:
 topics:
   - Engineering
   - Construction
+electives: yes
+certifications: no
+prerequisites: yes
+college-credit: yes
+senior-coursework: no
 ---
 
 Architectural Design Academy students will study all aspects of design while applying their creativity to many projects. Students use professional 3D modeling software to create various floor plans for construction and architectural models. Students build scale models of houses, furniture and other projects using different architectural styles, green technologies and their own unique creativity. Students have the opportunity to participate in an internship in their senior year.

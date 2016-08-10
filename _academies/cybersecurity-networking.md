@@ -12,6 +12,12 @@ topics:
   - Security
   - Technology
   - Engineering
+electives: no
+certifications: yes
+prerequisites: yes
+college-credit: yes
+pathways: yes
+senior-coursework: no
 ---
 
 The Cybersecurity Networking Academy consists of two pathways - Computer Networking and PC Systems. Both pathways prepare students for entry positions of further study in the cybersecurity arena. The Cisco and CyberWatch courses cover computer hardware, software, operating systems, fundamental and advanced networking, and cybersecurity-related threats and mitigation techniques. Students gain in-depth knowledge and practical application experience and demonstrate their ability to analyze cyber threats by using networking devices, simulation tools, software, and by participating in competitions. These courses prepare students to obtain CCENT and CCNA Certifications.
