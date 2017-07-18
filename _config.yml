@@ -1,7 +1,7 @@
 # Site settings
 
 # the subpath of your site, e.g. /blog/
-baseurl: "/academies"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
