@@ -3,23 +3,25 @@
 <div class="header group">
   <div class="header-inner group" itemscope="" itemtype="http://schema.org/Organization">
     <div class="logomark">
-      <a href="{{ site.baseurl }}"><img itemprop="logo" class="logo shadow-smaller" src="http://s3.amazonaws.com/hcpss.web.site/images/hcpss-logo-outlined.png" height="60" width="60" alt="">
+      <a href="/"><img itemprop="logo" class="logo shadow-smaller" src="https://s3.amazonaws.com/hcpss.web.site/images/hcpss-logo-outlined.png" height="60" width="60" alt="">
       <h1>Howard County Public School System</h1></a>
     </div>
     <div class="header-search">
       <form action="http://www.hcpss.org/" method="get" id="search-form">
-        <label style="display: none;" for="q">Search:</label>
+        <label style="position:absolute;left:-9999px;" for="s">Search:</label>
         <input type="text" id="s" name="s" maxlength="255">
         <button style="background-color: #FECC6A;color: black;border-radius: 10px;" type="submit">Search</button>
       </form>
     </div>
   </div>
 
-<nav class="nav-container" role="navigation">
+
+
+<nav class="nav-container">
 <ul class="nav-main">
     <li class="nav-main__item">
-      <a class="nav-main__item-title" data-toggle="dropdown" href="/about-us/" id="accessible-megamenu-1500320020069-1" aria-haspopup="true" aria-controls="accessible-megamenu-1500320020069-2" aria-expanded="false">About</a>
-      <div class="nav-main__sub" id="accessible-megamenu-1500320020069-2" role="group" aria-expanded="false" aria-hidden="true" aria-labelledby="accessible-megamenu-1500320020069-1">
+      <a class="nav-main__item-title" data-toggle="dropdown" href="/about-us/">About</a>
+      <div class="nav-main__sub">
       <h2>Learn about our District Operations and Strategies</h2>
         <ul class="nav-main__sub-group">
           <li><a href="/board/">Board of Education</a></li>
@@ -34,7 +36,6 @@
           <!-- <li><a href="/vision/progress-report/">Progress Report on the Strategic Plan</a></li>  -->
           <li><a href="/about-us/annual-reports/">Annual Reports</a></li>
           <li><a href="/about-us/research-data-analysis/">Research and Data Analysis</a></li>
-          <li><a href="/about-us/superintendent/teachers-for-tomorrow/">T4T: Teachers for Tomorrow</a></li>
         </ul>
         <ul class="nav-main__sub-group">
           <li><a href="/employment/">Employment</a></li>
@@ -45,19 +46,20 @@
           <li><a href="/f/vendors/index.html">Fund Accountability &amp; Transparency</a></li>
         </ul>
         <div class="contents nav-main__item-action">
-          <p><a href="/about/">Get an overview of our district →</a></p>
+          <p><a href="/about/">Get an overview of our district &rarr;</a></p>
         </div>
       </div>
     </li>
     <li class="nav-main__item">
-      <a class="nav-main__item-title" href="/schools/" id="accessible-megamenu-1500320020070-3" aria-haspopup="true" aria-controls="accessible-megamenu-1500320020070-4" aria-expanded="false">Schools</a>
-      <div class="nav-main__sub" id="accessible-megamenu-1500320020070-4" role="group" aria-expanded="false" aria-hidden="true" aria-labelledby="accessible-megamenu-1500320020070-3">
+      <a class="nav-main__item-title" href="/schools/">Schools</a>
+      <div class="nav-main__sub">
       <h2>Find out more about our Schools</h2>
           <ul class="nav-main__sub-group">
             <li><a href="/schools/elementary-schools/">Elementary Schools</a></li>
             <li><a href="/schools/middle-schools/">Middle Schools</a></li>
             <li><a href="/schools/high-schools/">High Schools</a></li>
             <li><a href="/schools/education-centers/">Education Centers</a></li>
+            <li style="font-size: 14px;margin-top: 10px;"><a href="/contact-us/community-superintendents/" class="">School Area Leadership Contacts&nbsp;→</a></li>
           </ul>
           <ul class="nav-main__sub-group">
             <li><a href="/schools/emergency-closings/">Emergency Closings</a></li>
@@ -71,16 +73,16 @@
             <li><a href="/schools/visitation/">Visiting Schools</a></li>
             <li><a href="/about-us/safe-schools/">Safe Schools</a></li>
             <li><a href="/school-planning/">School Planning (Maps)</a></li>
-            <li><a href="/parents/facilities/">Use of School Facilites</a></li>
+            <li><a href="/parents/facilities/">Use of School Facilities</a></li>
           </ul>
         <div class="contents nav-main__item-action">
-          <p><a href="/schools/">View all of our schools →</a></p>
-        </div>          
+          <p><a href="/schools/">View all of our schools &rarr;</a></p>
+        </div>
       </div>
     </li>
     <li class="nav-main__item">
-      <a class="nav-main__item-title" href="/academics/" id="accessible-megamenu-1500320020071-5" aria-haspopup="true" aria-controls="accessible-megamenu-1500320020071-6" aria-expanded="false">Academics</a>
-      <div class="nav-main__sub" id="accessible-megamenu-1500320020071-6" role="group" aria-expanded="false" aria-hidden="true" aria-labelledby="accessible-megamenu-1500320020071-5">
+      <a class="nav-main__item-title" href="/academics/">Academics</a>
+      <div class="nav-main__sub">
       <h2>Explore our Academic Programs</h2>
           <ul class="nav-main__sub-group">
             <li><a href="/academics/english-language-arts/">English/Language Arts</a></li>
@@ -103,12 +105,9 @@
           </ul>
           <ul class="nav-main__sub-group">
             <li><a href="/academics/alternative-education/">Alternative Education</a></li>
-            <li><a href="/academics/elementary-school-model/">Elementary School Model</a></li>
-            <li><a href="/academics/grow-strong-middle-schools/">Grow Strong Middle Schools</a></li>
+            <li><a href="/early-childhood/">Early Childhood Programs</a></li>
             <li><a href="/academics/gifted-and-talented/">Gifted and Talented</a></li>
             <li><a href="/academics/instructional-technology/">Instructional Technology</a></li>
-            <li><a href="/enroll/kindergarten/">Kindergarten Readiness</a></li>
-            <li><a href="/schools/pre-k-programs/">Pre-K Program</a></li>
             <li><a href="/academics/section-504/">Section 504</a></li>
             <li><a href="/academics/service-learning/">Service Learning</a></li>
             <li><a href="/academics/special-education/">Special Education</a></li>
@@ -116,13 +115,13 @@
             <li><a href="/academics/title-i-program/">Title I</a></li>
           </ul>
         <div class="contents nav-main__item-action">
-          <p><a href="/academics/">Get an overview of our curriculum →</a></p>
-        </div>           
+          <p><a href="/academics/">Get an overview of our curriculum &rarr;</a></p>
+        </div>
       </div>
-    </li> 
+    </li>
     <li class="nav-main__item">
-      <a class="nav-main__item-title" href="/services/" id="accessible-megamenu-1500320020072-7" aria-haspopup="true" aria-controls="accessible-megamenu-1500320020072-8" aria-expanded="false">Services</a>
-      <div class="nav-main__sub" id="accessible-megamenu-1500320020072-8" role="group" aria-expanded="false" aria-hidden="true" aria-labelledby="accessible-megamenu-1500320020072-7">
+      <a class="nav-main__item-title" href="/services/">Services</a>
+      <div class="nav-main__sub">
       <h2>Utilize our Services</h2>
         <div class="nav-main__sub-group">
           <ul>
@@ -138,6 +137,7 @@
           <li><a href="/schools/health-services/">Health Services</a></li>
           <li><a href="/schools/counseling-services/">School Counseling Services</a></li>
           <li><a href="/schools/psychological-services/">Psychological Services</a></li>
+          <li><a href="/supports/mental-health-wellness/">Mental Health and Wellness</a></li>
           <li><a href="/schools/pupil-personnel-services/">Pupil Personnel Services</a></li>
           </ul>
         </div>
@@ -149,28 +149,26 @@
           </ul>
         </div>
       </div>
-    </li> 
+    </li>
     <li class="nav-main__item">
-      <a class="nav-main__item-title" href="/news/" id="accessible-megamenu-1500320020073-9" aria-haspopup="true" aria-controls="accessible-megamenu-1500320020073-10" aria-expanded="false">News</a>
-      <div class="nav-main__sub" id="accessible-megamenu-1500320020073-10" role="group" aria-expanded="false" aria-hidden="true" aria-labelledby="accessible-megamenu-1500320020073-9">
+      <a class="nav-main__item-title" href="/news/">News</a>
+      <div class="nav-main__sub">
       <h2>Get the latest News and Events</h2>
         <div class="nav-main__sub-group">
           <ul>
           <li><a href="/news/press-release/">Press Releases</a></li>
           <li><a href="/news/community-event/">Upcoming Events</a></li>
           <li><a href="/news/staff-focus/">Staff Focus</a></li>
-          <li><a href="http://celebrate.hcpss.org/">Celebrate HCPSS</a></li>
           <li><a href="/community-news-and-programs/">Community News</a></li>
-          <li><a href="http://storystrong.hcpss.org/">StoryStrong</a></li><a href="http://storystrong.hcpss.org/">
-          </a></ul><a href="http://storystrong.hcpss.org/">
-        </a></div><a href="http://storystrong.hcpss.org/">
-        </a><div class="nav-main__sub-group"><a href="http://storystrong.hcpss.org/">
-          </a><ul><a href="http://storystrong.hcpss.org/">
-          </a><li><a href="http://storystrong.hcpss.org/"></a><a target="_blank" href="https://twitter.com/hcpss/">@HCPSS Twitter</a></li>
+          <li><a href="http://storystrong.hcpss.org/">StoryStrong</a></li>
+          </ul>
+        </div>
+        <div class="nav-main__sub-group">
+          <ul>
+          <li><a target="_blank" href="https://twitter.com/hcpss/">@HCPSS Twitter</a></li>
           <li><a target="_blank" href="https://www.facebook.com/hocoschools/">Facebook</a></li>
           <li><a target="_blank" href="https://www.instagram.com/hocoschools/">Instagram</a></li>
           <li><a target="_blank" href="/tv/">HCPSS TV</a></li>
-          <li><a target="_blank" href="https://superintendent.hcpss.org/">Superintendent's Corner</a></li>
           <li><a target="_blank" href="https://twitter.com/mjmsuper">Dr. Martirano on Twitter</a></li>
           <li style="font-size: 14px;margin-top: 10px;"><a href="/social-media-accounts/">See all of our social media accounts →</a></li>
           </ul>
@@ -180,13 +178,13 @@
           Learn more about the email and text alerts included within your HCPSS News subscription.<br><br><span class="subscribe"><a style="color:black;" href="/hcpss-news/"><i class="fa fa-bullhorn"></i>&nbsp;Learn More&nbsp;→</a></span>
         </div>
         <div class="contents nav-main__item-action">
-          <p><a href="/news/">View all of our news stories →</a></p>
-        </div>         
+          <p><a href="/news/">View all of our news stories &rarr;</a></p>
+        </div>
       </div>
-    </li>  
+    </li>
     <li class="nav-main__item">
-      <a class="nav-main__item-title" href="/contact-us/" id="accessible-megamenu-1500320020073-11" aria-haspopup="true" aria-controls="accessible-megamenu-1500320020073-12" aria-expanded="false">Contact</a>
-      <div class="nav-main__sub" id="accessible-megamenu-1500320020073-12" role="group" aria-expanded="false" aria-hidden="true" aria-labelledby="accessible-megamenu-1500320020073-11">
+      <a class="nav-main__item-title" href="/contact-us/">Contact</a>
+      <div class="nav-main__sub">
       <h2 style="margin-bottom:0px;">Have a question? Contact us: 410-313-6600</h2>
           <section class="nav-main__sub-group">
           <h2>Main Address</h2>
@@ -196,7 +194,7 @@
           <section class="nav-main__sub-group">
           <h2>Human Resources</h2>
             <ul style="margin-left: 0.5em;">
-              <li><i class="fa fa-user" aria-hidden="true"></i> <a href="/employment/contact.shtml">View all HR Contacts →</a></li>
+              <li><i class="fa fa-user" aria-hidden="true"></i> <a href="/employment/contact.shtml">View all HR Contacts &#8594;</a></li>
             </ul>
             <p>Office Phone: 410-313-6693</p>
           </section>
@@ -204,15 +202,15 @@
             <h2>Public Information</h2>
             <ul style="margin-left: 0.5em;">
               <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:publicinfo@hcpss.org">publicinfo@hcpss.org</a></li>
-              <li><i class="fa fa-file-text" aria-hidden="true"></i> <a href="/about-us/public-information-requests/">Submit a public information act request →</a></li>
+              <li><i class="fa fa-file-text" aria-hidden="true"></i> <a href="/about-us/public-information-requests/">Submit a public information act request &#8594;</a></li>
             </ul>
             <p>Office Phone: 410-313-6682</p>
           </section>
         <div class="contents nav-main__item-action">
-          <p><a href="/contact/">See all contact information →</a></p>
-        </div> 
+          <p><a href="/contact/">See all contact information &rarr;</a></p>
+        </div>
       </div>
-    </li> 
+    </li>
 </ul>
 </nav>
 
@@ -225,7 +223,7 @@
 <div class="nav-main__mobile">
 
   <div class="contents nav-close" id="nav-main__mobile--close"></div>
-  
+
   <section class="nav-main__mobile-container">
 
   <div id="accordion-mobile">
@@ -243,14 +241,14 @@
           <!-- <li><a href="/vision/progress-report/">Progress Report on the Strategic Plan</a></li>  -->
           <li><a href="/about-us/annual-reports/">Annual Reports</a></li>
           <li><a href="/about-us/research-data-analysis/">Research and Data Analysis</a></li>
-          <li><a href="/about-us/superintendent/teachers-for-tomorrow/">T4T: Teachers for Tomorrow</a></li>
           <li><a href="/employment/">Employment</a></li>
+          <li><a href="http://www.hcpss.org/employees/benefits/">Employee Benefits</a></li>
           <li><a href="/about-us/budgets/">Budget</a></li>
           <li><a href="/about-us/partnerships/">Partnerships</a></li>
           <li><a href="/about-us/purchasing/">Purchasing</a></li>
           <li><a href="/f/vendors/index.html">Fund Accountability &amp; Transparency</a></li>
           <li><a href="/about/">Get an overview of our district →</a></li>
-        </ul>        
+        </ul>
       </li>
       <li>
       <h3>Schools</h3>
@@ -259,6 +257,7 @@
           <li><a href="/schools/middle-schools/">Middle Schools</a></li>
           <li><a href="/schools/high-schools/">High Schools</a></li>
           <li><a href="/schools/education-centers/">Education Centers</a></li>
+          <li style="font-size: 14px;margin-top: 10px;"><a href="/contact-us/community-superintendents/" class="">School Area Leadership Contacts&nbsp;→</a></li>
           <li><a href="/schools/emergency-closings/">Emergency Closings</a></li>
           <li><a href="/athletics/">Athletics</a></li>
           <li><a href="/athletics/weather-procedures/">Athletics Weather-Related Procedures</a></li>
@@ -291,12 +290,9 @@
           <li><a href="/academics/physical-education/">Physical Education</a></li>
           <li><a href="/academics/world-language-program/">World Languages</a></li>
           <li><a href="/academics/alternative-education/">Alternative Education</a></li>
-          <li><a href="/academics/elementary-school-model/">Elementary School Model</a></li>
-          <li><a href="/academics/grow-strong-middle-schools/">Grow Strong Middle Schools</a></li>
+          <li><a href="/early-childhood/">Early Childhood Programs</a></li>
           <li><a href="/academics/gifted-and-talented/">Gifted and Talented</a></li>
           <li><a href="/academics/instructional-technology/">Instructional Technology</a></li>
-          <li><a href="/enroll/kindergarten/">Kindergarten Readiness</a></li>
-          <li><a href="/schools/pre-k-programs/">Pre-Kindergarten Programs</a></li>
           <li><a href="/academics/section-504/">Section 504</a></li>
           <li><a href="/academics/service-learning/">Service Learning</a></li>
           <li><a href="/academics/special-education/">Special Education</a></li>
@@ -330,6 +326,7 @@
           <li><a href="/news/staff-focus/">Staff Focus</a></li>
           <li><a href="http://celebrate.hcpss.org/">Celebrate HCPSS</a></li>
           <li><a href="/community-news-and-programs/">Community News</a></li>
+          <li><a href="http://storystrong.hcpss.org/">StoryStrong</a></li>
           <li><a target="_blank" href="https://twitter.com/hcpss/">@HCPSS Twitter</a></li>
           <li><a target="_blank" href="https://www.facebook.com/hocoschools/">Facebook</a></li>
           <li><a target="_blank" href="https://www.instagram.com/hocoschools/">Instagram</a></li>
@@ -341,7 +338,7 @@
             Learn more about the email and text alerts included within your HCPSS News subscription.<br><br><span class="subscribe"><a style="color:black;" href="/hcpss-news/"><i class="fa fa-bullhorn"></i>&nbsp;Learn More&nbsp;→</a></span></li>
           <li><a href="/news/">View all of our news stories →</a></li>
         </ul>
-      </li> 
+      </li>
       <li>
       <h3>Contact Us</h3>
         <ul class="nav-main__mobile-inner" style="">
