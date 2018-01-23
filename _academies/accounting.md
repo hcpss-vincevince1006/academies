@@ -7,7 +7,7 @@ location: high school
 grades: 10-12
 questions: Do you love numbers? Do you enjoy analyzing facts and figures?
 photo:
-video:
+video: "236781451"
 topics:
   - Business
 electives: yes
