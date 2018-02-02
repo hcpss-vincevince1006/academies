@@ -12,7 +12,7 @@ topics:
   - Engineering
   - Construction
 electives: yes
-certifications: no
+certifications: yes
 prerequisites: yes
 college-credit: yes
 senior-coursework: no
