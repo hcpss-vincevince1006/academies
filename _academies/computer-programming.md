@@ -7,7 +7,7 @@ location: high school
 grades: 10-12
 questions: Have you always loved computers? Do you enjoy activities that require a lot of thinking and planning?
 photo:
-video:
+video: "256658079"
 topics:
   - Engineering
   - Technology
