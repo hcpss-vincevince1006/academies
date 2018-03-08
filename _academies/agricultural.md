@@ -13,7 +13,7 @@ topics:
   - Technology
 electives: yes
 certifications: yes
-prerequisites: yes
+prerequisites: no
 college-credit: yes
 pathways: no
 senior-coursework: yes
