@@ -1,11 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
+<head>
 
-  {% include head.html %}
+<link rel="apple-touch-icon" sizes="180x180" href="https://s3.amazonaws.com/hcpss.web.site/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="https://s3.amazonaws.com/hcpss.web.site/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://s3.amazonaws.com/hcpss.web.site/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="https://s3.amazonaws.com/hcpss.web.site/favicons/manifest.json">
+<link rel="mask-icon" href="https://s3.amazonaws.com/hcpss.web.site/favicons/safari-pinned-tab.svg" color="#2762a5">
+<meta name="theme-color" content="#ffffff">
 
-  <body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
 
-    {% include header.html %}
+<title>{{ page.title }} - HCPSS</title>
+
+<link rel="stylesheet" type='text/css'
+  href="https://s3.amazonaws.com/hcpss.web.site/images/normalize.css">
+
+<!-- <link rel="stylesheet" type='text/css'
+  href="http://www.hcpss.org/f/js/normalize.css"> -->
+<link rel="stylesheet" type='text/css'
+  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" type="text/css"
+  href="https://s3.amazonaws.com/hcpss.web.site/fonts/fira.css" > -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800|Source+Sans+Pro" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://www.hcpss.org/f/mrb/newdesign/main.min.css">
+<!-- <link rel="stylesheet" type="text/css"
+  href="http://www.hcpss.org/f/js/main.css" > -->
+
+
+</head>
+
+<body>
+
+<!--googleoff: index-->
+
+<a href="#main-content">skip to main content</a>
+
+<header class="main-navigation">
+  <nav>
+  <p class="logo-wrapper"><a href="/"><img class="hcpss-logo" src="https://www.hcpss.org/f/mrb/blue-flame.png" alt=""> HCPSS</a></p>
+  <button class="btn__main-toggle" aria-expanded="false" aria-controls="main-menu-list"><i class="fa fa-bars" aria-hidden="true"></i>&nbsp; Main Menu</button>
+  <ul id="main-menu-list" class="primary-menu">
+   <li><a href="/languages/"><i class="fa fa-globe" aria-hidden="true"></i> Languages <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+    <ul hidden>
+     <li><a href="/es/" lang="es">Español</a></li>
+     <li><a href="/zh/" lang="zh">中文</a></li>
+     <li><a href="/ko/" lang="ko">한국어</a></li>
+     <li><a href="/cnh/" lang="cnh">Chin</a></li>
+    </ul>
+   </li>
+   <li><a href="/for-you/">For You <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+    <ul hidden>
+     <li><a href="/for-you/parents/">Parents</a></li>
+     <li><a href="/for-you/students/">Students</a></li>
+     <li><a href="/for-you/staff/">Staff &amp; Retirees</a></li>
+    </ul>
+   </li>
+   <li><a href="/about/">About</a></li>
+   <li><a href="/schools/">Schools</a></li>
+   <li><a href="/academics/">Academics</a></li>
+   <li><a href="/supports/">Supports</a></li>
+   <li><a href="https://news.hcpss.org/">News</a></li>
+   <li><a href="/search/"><i class="fa fa-search" aria-hidden="true"></i> <span class="visually-hidden">Search</span></a></li>
+ </ul>
+  </nav>
+</header>
 
 	<div class="container page group">
 	<main id="main-content" class="main group">
@@ -27,14 +87,6 @@
 	</div>
 
 
-  <!-- <p class="tagline">Preparing Students for College and Careers</p> -->
-    {% if page.sidebar_view == null %}
-      <div style="width:100%" class="body-content">
-    {% elsif page.sidebar_view %}
-      <h1> {{ page.title }}</h1>
-      <div class="body-content">
-    {% endif %}
-
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
@@ -45,8 +97,71 @@
 	</main>
 	</div>
 
-    {% include footer.html %}
 
-  </body>
+<!-- </div>  -->
 
+
+<footer>
+ <div class="footer-wrap">
+
+  <div class="footer-address">
+   <address>
+     <strong>Howard County Public School&nbsp;System</strong><br>
+     10910 Clarksville Pike<br>
+     Ellicott City, MD 21042<br>
+     Main Phone: (410) 313-6600<br>
+   </address>
+   <p><a href="https://directory.hcpss.org/">Staff Directory</a> | <a href="/inclusivity/">Inclusivity &amp; Accessibility</a></p>
+  </div>
+
+  <div class="">
+   <ul class="footer-social-icons">
+
+    <li class="foot-social foot-social-tw">
+     <a aria-label="Twitter" href="https://twitter.com/hcpss/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    </li>
+
+    <li class="foot-social foot-social-fb">
+     <a aria-label="Facebook" href="https://www.facebook.com/hocoschools/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    </li>
+
+    <li class="foot-social foot-social-ig">
+     <a aria-label="Instagram" href="https://instagram.com/hocoschools/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </li>
+
+    <li class="foot-social foot-social-vm">
+     <a aria-label="Vimeo" href="https://vimeo.com/hcpss" target="_blank"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+    </li>
+
+    <li class="foot-social foot-social-flickr">
+     <a aria-label="Flickr" href="https://www.flickr.com/photos/hcpss" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i></a>
+    </li>
+
+   </ul>
+  </div>
+
+ </div>
+</footer>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38673415-1']);
+  _gaq.push(['_setDomainName', 'www.hcpss.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script>
+sectionArrowToggle('#list p');
+</script>
+
+</body>
 </html>
