@@ -5,7 +5,7 @@ sort_name: Aerospace Engineering
 ptlw: Yes
 sidebar_view: no
 location: ARL
-grades: 10-11
+grades: 11-12
 questions: Are you interested in learning more about planes, spacecraft, satellites and missiles? Do you thrive in a fast-paced environment?
 photo:
 video: "126805901"
